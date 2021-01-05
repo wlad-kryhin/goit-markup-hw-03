@@ -48,18 +48,26 @@ a {
 }
 .main {
   background: var(--color-footer);
+  text-align: center;
+  width: 1400px;
 }
 .main-title {
   color: var(--color-main);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
-  text-align: center;
+
+  margin-bottom: 30px;
 }
 .button {
   color: var(--color-main);
   background: var(--color-accent);
   font-family: inherit;
+  font-weight: 700;
+
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
 }
 .title-aboutme {
   font-weight: 700;
