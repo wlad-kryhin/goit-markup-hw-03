@@ -13,6 +13,12 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 .text-decoration {
   list-style: none;
 }
@@ -49,7 +55,8 @@ a {
 .main {
   background: var(--color-footer);
   text-align: center;
-  width: 1400px;
+  width: 1500px;
+  height: 600px;
 }
 .main-title {
   color: var(--color-main);
@@ -58,6 +65,7 @@ a {
   line-height: 1.5;
 
   margin-bottom: 30px;
+  padding-top: 200px;
 }
 .button {
   color: var(--color-main);
@@ -69,10 +77,15 @@ a {
   padding: 10px 32px;
   min-width: 200px;
 }
+.skills-container {
+  padding-top: 94px;
+}
 .title-aboutme {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+
+  margin-bottom: 10px;
 }
 .text-aboutme {
   color: var(--color-text);
@@ -85,10 +98,13 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.3;
+
   text-align: center;
 }
 .team {
   background-color: var(--color-background);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .name-team {
   color: var(--color-title);
@@ -125,17 +141,28 @@ a {
   color: var(--color-title);
 }
 
-/* Portfolip*/
+/* Portfolio*/
 .buttons {
   color: var(--color-title);
   background-color: var(--color-background);
   font-weight: 500;
   font-family: inherit;
+
+  display: inline-block;
+  border-radius: 4px;
+  min-width: 73px;
+  padding: 6px 22px;
+  text-align: center;
+  border: 0px transparent;
 }
 .buttons:hover,
 .buttons:focus {
   color: var(--color-main);
   background-color: var(--color-accent);
+}
+.bits {
+  padding-top: 94px;
+  padding-bottom: 56px;
 }
 .title-img {
   font-weight: 700;
@@ -154,6 +181,11 @@ a {
 }
 .link-group {
   background-color: var(--color-main);
+
+  display: inline-block;
+  width: 370px;
+  height: 404px;
+  margin-bottom: 30px;
 }
 .links:hover,
 .links:focus {
