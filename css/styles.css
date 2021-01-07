@@ -8,6 +8,7 @@
 }
 body {
   font-family: Roboto, sans-serif;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -24,6 +25,8 @@ a {
 .shapka {
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .text-decoration {
   list-style: none;
@@ -33,7 +36,7 @@ a {
   letter-spacing: 0.02em;
 }
 .logo-nav {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   color: var(--color-accent);
   font-weight: 700;
   font-size: 26px;
@@ -75,8 +78,6 @@ a {
 .main {
   background: var(--color-footer);
   text-align: center;
-  width: 1500px;
-  height: 500px;
 }
 .main-title {
   color: var(--color-main);
@@ -86,6 +87,7 @@ a {
 
   margin-bottom: 30px;
   padding-top: 200px;
+  margin-top: 0px;
 }
 .button {
   color: var(--color-main);
@@ -98,16 +100,16 @@ a {
   min-width: 200px;
   margin-bottom: 200px;
 }
-.skills-container {
-  padding-top: 94px;
-}
+
 .skillsteam {
   display: flex;
+  margin-bottom: 94px;
+  margin-top: 94px;
 }
 .skills-group {
   width: 270px;
 }
-.skills-group:not(:last-child) {
+.list-foto:not(:last-child) {
   margin-right: 30px;
 }
 .title-aboutme {
@@ -115,7 +117,7 @@ a {
   font-size: 14px;
   line-height: 16px;
 
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 .text-aboutme {
   color: var(--color-text);
@@ -130,6 +132,14 @@ a {
   line-height: 1.3;
 
   text-align: center;
+  margin-bottom: 50px;
+}
+.main-foto {
+  display: flex;
+  padding-bottom: 94px;
+}
+.main-foto:not(:last-child) {
+  margin-right: 30px;
 }
 .team {
   background-color: var(--color-background);
@@ -142,6 +152,13 @@ a {
   font-size: 16px;
   line-height: 1.2;
 }
+.my-team {
+  display: flex;
+  padding-bottom: 94px;
+}
+.team-project:not(:last-child) {
+  margin-right: 30px;
+}
 .teams-work {
   color: var(--color-text);
   font-weight: 400;
@@ -152,10 +169,21 @@ a {
   background-color: var(--color-footer);
   letter-spacing: 0.03em;
 }
+.logo-footer {
+  margin-bottom: 20px;
+}
+.info-footer:not(:last-child) {
+  margin-bottom: 9px;
+}
 .adres-footer {
   font-size: 14px;
   line-height: 1.8;
   font-weight: 400;
+}
+.footer-adress {
+  text-align: left;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .city {
   color: var(--color-main);
@@ -195,9 +223,9 @@ a {
 }
 .bits {
   padding-top: 94px;
-  padding-bottom: 56px;
+  margin-bottom: 56px;
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 .list-buttons:not(:last-child) {
   margin-right: 8px;
@@ -234,4 +262,7 @@ a {
 .links:hover,
 .links:focus {
   background-color: var(--color-accent);
+}
+.portfolio-picture {
+  padding-bottom: 94px;
 }
