@@ -96,6 +96,7 @@ a {
   background: var(--color-accent);
   font-family: inherit;
   font-weight: 700;
+  cursor: pointer;
 
   border-radius: 4px;
   padding: 10px 32px;
@@ -219,6 +220,7 @@ a {
   padding: 6px 22px;
   text-align: center;
   border: 0px transparent;
+  cursor: pointer;
 }
 .buttons:hover,
 .buttons:focus {
