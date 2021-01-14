@@ -8,7 +8,6 @@
 }
 body {
   font-family: Roboto, sans-serif;
-  margin: 0;
 }
 a {
   text-decoration: none;
@@ -23,18 +22,23 @@ a {
   margin-right: auto;
   text-align: center;
 }
-.shapka {
+.page-header {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+.site-nav {
   display: flex;
   align-items: center;
 }
 .text-decoration {
   list-style: none;
+  margin: 0;
 }
 .header {
   background-color: var(--color-main);
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
-  padding-top: 32px;
 }
 .logo-nav {
   font-family: Raleway, sans-serif;
@@ -76,8 +80,8 @@ li > .info {
 .adres {
   margin-left: auto;
 }
-.main-class {
-  letter-spacing: 0.03em;
+.accent-studio {
+  color: var(--color-accent);
 }
 .main {
   background-color: var(--color-footer);
@@ -90,20 +94,25 @@ li > .info {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
   margin-bottom: 30px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 .button {
   color: var(--color-main);
   background-color: var(--color-accent);
   font-family: inherit;
   font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
   cursor: pointer;
 
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
+  border-color: var(--color-accent);
 }
 .skiils-container {
   padding-bottom: 94px;
@@ -112,9 +121,10 @@ li > .info {
 
 .skillsteam {
   display: flex;
+  text-align: start;
 }
-.skills-group {
-  width: 270px;
+.skills-group:not(:last-child) {
+  margin-right: 30px;
 }
 .what-we-doing {
   padding-bottom: 94px;
@@ -127,13 +137,14 @@ li > .info {
   font-size: 14px;
   line-height: 16px;
 
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 .text-aboutme {
   color: var(--color-text);
   font-size: 14px;
   line-height: 1.2;
   font-weight: 400;
+  letter-spacing: 0.03em;
 }
 .title-work {
   color: var(--color-title);
@@ -143,6 +154,7 @@ li > .info {
 
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 0;
 }
 .main-foto {
   display: flex;
@@ -210,6 +222,9 @@ li > .info {
 }
 .accent-header {
   color: var(--color-title);
+}
+.adres-footer > .logo-nav {
+  margin-left: 38px;
 }
 
 /* Portfolio*/
