@@ -22,6 +22,7 @@ a {
   margin-right: auto;
   text-align: center;
 }
+/* ============= HEADER =========*/
 .page-header {
   display: flex;
   align-items: center;
@@ -41,7 +42,7 @@ a {
   letter-spacing: 0.02em;
 }
 .logo-nav {
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   color: var(--color-accent);
   font-weight: 700;
   font-size: 26px;
@@ -83,6 +84,13 @@ li > .info {
 .accent-studio {
   color: var(--color-accent);
 }
+.accent-header {
+  color: var(--color-title);
+}
+
+/* ============= END HEADER =========*/
+
+/* ============= HERO =========*/
 .main {
   background-color: var(--color-footer);
   text-align: center;
@@ -114,6 +122,10 @@ li > .info {
   min-width: 200px;
   border-color: var(--color-accent);
 }
+
+/* ============= END HERO =========*/
+
+/* ============= ABOUT =========*/
 .skiils-container {
   padding-bottom: 94px;
   padding-top: 94px;
@@ -124,12 +136,6 @@ li > .info {
   text-align: start;
 }
 .skills-group:not(:last-child) {
-  margin-right: 30px;
-}
-.what-we-doing {
-  padding-bottom: 94px;
-}
-.list-foto:not(:last-child) {
   margin-right: 30px;
 }
 .title-aboutme {
@@ -146,6 +152,10 @@ li > .info {
   font-weight: 400;
   letter-spacing: 0.03em;
 }
+
+/* ============= END ABOUT =========*/
+
+/* ============= SERVICES =========*/
 .title-work {
   color: var(--color-title);
   font-weight: 700;
@@ -156,12 +166,19 @@ li > .info {
   margin-bottom: 50px;
   margin-top: 0;
 }
+.what-we-doing {
+  padding-bottom: 94px;
+}
+.list-foto:not(:last-child) {
+  margin-right: 30px;
+}
 .main-foto {
   display: flex;
 }
-.main-foto:not(:last-child) {
-  margin-right: 30px;
-}
+
+/* ============= END SERVICES =========*/
+
+/* ============= ADVANTAGES =========*/
 .team {
   background-color: var(--color-background);
   padding-top: 94px;
@@ -190,6 +207,10 @@ li > .info {
   font-size: 16px;
   line-height: 1.2;
 }
+
+/* ============= END ADVANTAGES =========*/
+
+/* ============= FOOTER =========*/
 .footer {
   background-color: var(--color-footer);
   letter-spacing: 0.03em;
@@ -220,14 +241,14 @@ li > .info {
 .accent-footer {
   color: var(--color-main);
 }
-.accent-header {
-  color: var(--color-title);
-}
 .adres-footer > .logo-nav {
   margin-left: 38px;
 }
+/* =============  END FOOTER =========*/
 
-/* Portfolio*/
+/*----------------- Portfolio-------------------*/
+
+/* ============= PORTFOLIO - HERO  =========*/
 .portfolio-container {
   display: flex;
   flex-wrap: wrap;
@@ -259,7 +280,9 @@ li > .info {
 .list-buttons:not(:last-child) {
   margin-right: 8px;
 }
+/* ============= PORTFOLIO - END HERO  =========*/
 
+/* ============= PORTFOLIO - ABOUT  =========*/
 .title-img {
   font-weight: 700;
   font-size: 18px;
@@ -297,3 +320,4 @@ li > .info {
 .portfolio-picture {
   padding-bottom: 94px;
 }
+/* ============= PORTFOLIO - END ABOUT  =========*/
