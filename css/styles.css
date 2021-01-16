@@ -69,9 +69,6 @@ a {
 .nav-site:not(:last-child) {
   margin-right: 50px;
 }
-.nav:not(:last-child) {
-  margin-right: 50px;
-}
 .info {
   color: var(--color-text);
   font-weight: 500;
@@ -83,6 +80,13 @@ li > .info {
 }
 .adres {
   margin-left: auto;
+  display: flex;
+}
+.adres-item .nav {
+  color: var(--color-text);
+}
+.adres-item:not(:last-child) {
+  margin-right: 50px;
 }
 .accent-studio {
   color: var(--color-accent);
