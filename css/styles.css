@@ -146,6 +146,9 @@ li > .info {
 .skills-group:not(:last-child) {
   margin-right: 30px;
 }
+.skills-group {
+  width: 270px;
+}
 .title-aboutme {
   font-weight: 700;
   font-size: 14px;
