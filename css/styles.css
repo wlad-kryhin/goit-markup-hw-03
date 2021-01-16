@@ -62,6 +62,7 @@ a {
 }
 .navigation {
   display: flex;
+  padding-left: 0px;
 }
 .nav-site:not(:last-child) {
   margin-right: 50px;
@@ -226,10 +227,16 @@ li > .info {
   line-height: 1.8;
   font-weight: 400;
 }
+.footer-adress .logo-nav {
+  margin-bottom: 20px;
+}
 .footer-adress {
   text-align: left;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.list-footer {
+  margin-top: 20px;
 }
 .city {
   color: var(--color-main);
