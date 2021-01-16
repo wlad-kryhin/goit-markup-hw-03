@@ -35,7 +35,7 @@ a {
 }
 .text-decoration {
   list-style: none;
-  margin: 0;
+  padding: 0;
 }
 .header {
   background-color: var(--color-main);
@@ -254,9 +254,7 @@ li > .info {
 .accent-footer {
   color: var(--color-main);
 }
-.adres-footer > .logo-nav {
-  margin-left: 38px;
-}
+
 /* =============  END FOOTER =========*/
 
 /*----------------- Portfolio-------------------*/
@@ -311,6 +309,7 @@ li > .info {
 .portfolio-selection {
   background-color: #e5e5e5;
   border-top: 1px solid #ececec;
+  padding-bottom: 94px;
 }
 .link-group {
   background-color: var(--color-main);
@@ -330,7 +329,5 @@ li > .info {
 .links:focus {
   background-color: var(--color-accent);
 }
-.portfolio-picture {
-  padding-bottom: 94px;
-}
+
 /* ============= PORTFOLIO - END ABOUT  =========*/
