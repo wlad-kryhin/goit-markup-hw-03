@@ -16,18 +16,14 @@ a {
 }
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 15px;
+  margin: 0 auto;
   text-align: center;
 }
 /* ============= HEADER =========*/
 .page-header {
   display: flex;
   align-items: center;
-  margin-top: 24px;
-  margin-bottom: 25px;
 }
 .site-nav {
   display: flex;
@@ -36,8 +32,9 @@ a {
 .text-decoration {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
-.header {
+.header-section {
   background-color: var(--color-main);
   letter-spacing: 0.02em;
 }
@@ -50,16 +47,20 @@ a {
 
   margin-right: 93px;
 }
-.nav {
+.site-nav .logo-nav {
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+.nav-contacts {
   color: var(--color-title);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
-  padding-bottom: 34px;
+  padding-bottom: 32px;
   padding-top: 32px;
 }
-.nav:hover,
-.nav:focus {
+.nav-contacts:hover,
+.nav-contacts:focus {
   color: var(--color-accent);
 }
 .navigation {
@@ -82,7 +83,7 @@ li > .info {
   margin-left: auto;
   display: flex;
 }
-.adres-item .nav {
+.adres-item .nav-contacts {
   color: var(--color-text);
 }
 .adres-item:not(:last-child) {
@@ -98,7 +99,7 @@ li > .info {
 /* ============= END HEADER =========*/
 
 /* ============= HERO =========*/
-.main {
+.main-section {
   background-color: var(--color-footer);
   text-align: center;
   padding-top: 200px;
@@ -115,7 +116,7 @@ li > .info {
   margin-bottom: 30px;
   margin-top: 0;
 }
-.button {
+.button-hero {
   color: var(--color-main);
   background-color: var(--color-accent);
   font-family: inherit;
@@ -151,6 +152,7 @@ li > .info {
   line-height: 16px;
 
   margin-bottom: 10px;
+  margin-top: 0;
 }
 .text-aboutme {
   color: var(--color-text);
@@ -158,6 +160,7 @@ li > .info {
   line-height: 1.2;
   font-weight: 400;
   letter-spacing: 0.03em;
+  margin: 0;
 }
 
 /* ============= END ABOUT =========*/
@@ -218,7 +221,7 @@ li > .info {
 /* ============= END ADVANTAGES =========*/
 
 /* ============= FOOTER =========*/
-.footer {
+.footer-section {
   background-color: var(--color-footer);
   letter-spacing: 0.03em;
 }
@@ -264,7 +267,7 @@ li > .info {
   display: flex;
   flex-wrap: wrap;
 }
-.buttons {
+.modal-buttons {
   color: var(--color-title);
   background-color: var(--color-background);
   font-weight: 500;
@@ -277,13 +280,12 @@ li > .info {
   border: 0px transparent;
   cursor: pointer;
 }
-.buttons:hover,
-.buttons:focus {
+.modal-buttons:hover,
+.modal-buttons:focus {
   color: var(--color-main);
   background-color: var(--color-accent);
 }
 .bits {
-  padding-top: 94px;
   margin-bottom: 56px;
   display: flex;
   justify-content: center;
@@ -310,6 +312,7 @@ li > .info {
   background-color: #e5e5e5;
   border-top: 1px solid #ececec;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .link-group {
   background-color: var(--color-main);
