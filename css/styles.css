@@ -202,6 +202,11 @@ li > .info {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.team-project-img {
+  padding-bottom: 30px;
 }
 .my-team {
   display: flex;
@@ -219,6 +224,8 @@ li > .info {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
+  margin: 0;
+  padding-bottom: 30px;
 }
 
 /* ============= END ADVANTAGES =========*/
@@ -304,12 +311,16 @@ li > .info {
   font-size: 18px;
   line-height: 2;
   color: var(--color-title);
+  margin: 0;
+  padding: 10px 15px;
 }
 .text-img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   color: var(--color-text);
+  margin: 0;
+  padding: 10px 15px;
 }
 .portfolio-selection {
   background-color: #e5e5e5;
