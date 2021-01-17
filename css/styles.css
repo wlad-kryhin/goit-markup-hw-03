@@ -312,7 +312,9 @@ li > .info {
   line-height: 2;
   color: var(--color-title);
   margin: 0;
-  padding: 10px 15px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .text-img {
   font-weight: 400;
@@ -320,10 +322,15 @@ li > .info {
   line-height: 1.9;
   color: var(--color-text);
   margin: 0;
-  padding: 10px 15px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+}
+.link-group-img {
+  padding-bottom: 20px;
 }
 .portfolio-selection {
-  background-color: #e5e5e5;
+  background-color: var(--color-main);
   border-top: 1px solid #ececec;
   padding-bottom: 94px;
   padding-top: 94px;
@@ -335,6 +342,7 @@ li > .info {
   margin-right: 15px;
   margin-bottom: 15px;
   border: 1px solid #eeeeee;
+  text-align: start;
 }
 .link-group:nth-child(3n) {
   margin-right: 0px;
